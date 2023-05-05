@@ -1,0 +1,675 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <style type="text/css">table{border-collapse:collapse;table-layout:fixed;border-spacing:0;empty-cells:show}
+.X0{color:rgb(255,255,255);font-family:微软雅黑;font-size:9.0pt;background-color:rgb(51,51,153);border-top-color:000000;border-top-style:solid;border-top-width:1;border-bottom-color:000000;border-bottom-style:solid;border-bottom-width:1;border-left-color:000000;border-left-style:solid;border-left-width:1;border-right-color:000000;border-right-style:solid;border-right-width:1;vertical-align:center;text-align:center;word-wrap:break-word;height:19px;}
+.X1{color:rgb(255,255,255);font-family:微软雅黑;font-size:9.0pt;background-color:rgb(51,51,153);border-top-color:000000;border-top-style:solid;border-top-width:1;border-bottom-color:000000;border-bottom-style:solid;border-bottom-width:1;border-left-color:000000;border-left-style:solid;border-left-width:1;border-right-color:000000;border-right-style:solid;border-right-width:1;font-weight:bold;vertical-align:center;text-align:center;word-wrap:break-word;height:19px;}
+.X2{color:rgb(0,0,0);font-family:微软雅黑;font-size:9.0pt;background-color:rgb(255,255,255);border-top-color:000000;border-top-style:solid;border-top-width:1;border-bottom-color:000000;border-bottom-style:solid;border-bottom-width:1;border-left-color:000000;border-left-style:solid;border-left-width:1;border-right-color:000000;border-right-style:solid;border-right-width:1;font-weight:bold;vertical-align:center;text-align:center;word-wrap:break-word;height:19px;}
+.X3{color:rgb(0,0,0);font-family:微软雅黑;font-size:9.0pt;background-color:rgb(255,255,255);border-top-color:000000;border-top-style:solid;border-top-width:1;border-bottom-color:000000;border-bottom-style:solid;border-bottom-width:1;border-left-color:000000;border-left-style:solid;border-left-width:1;border-right-color:000000;border-right-style:solid;border-right-width:1;vertical-align:center;text-align:center;word-wrap:break-word;height:19px;}
+.X4{color:rgb(0,0,0);font-family:微软雅黑;font-size:10.0pt;background-color:rgb(255,255,255);border-top-color:000000;border-top-style:solid;border-top-width:1;border-bottom-color:000000;border-bottom-style:solid;border-bottom-width:1;border-left-color:000000;border-left-style:solid;border-left-width:1;border-right-color:000000;border-right-style:solid;border-right-width:1;font-weight:bold;vertical-align:center;text-align:center;word-wrap:break-word;height:22px;}
+.X5{color:rgb(0,0,0);font-family:微软雅黑;font-size:10.0pt;background-color:rgb(255,255,255);border-top-color:000000;border-top-style:solid;border-top-width:1;border-left-color:000000;border-left-style:solid;border-left-width:1;border-right-color:000000;border-right-style:solid;border-right-width:1;font-weight:bold;vertical-align:center;text-align:center;word-wrap:break-word;height:19px;}
+.X6{color:rgb(0,0,0);font-family:微软雅黑;font-size:9.0pt;background-color:rgb(255,255,255);border-top-color:000000;border-top-style:solid;border-top-width:1;border-bottom-color:000000;border-bottom-style:solid;border-bottom-width:1;border-left-color:000000;border-left-style:solid;border-left-width:1;border-right-color:000000;border-right-style:solid;border-right-width:1;vertical-align:center;text-align:general;word-wrap:break-word;height:19px;}
+.X7{color:rgb(0,0,0);font-family:微软雅黑;font-size:10.0pt;background-color:rgb(255,255,255);border-top-color:000000;border-top-style:solid;border-top-width:1;border-bottom-color:000000;border-bottom-style:solid;border-bottom-width:1;border-left-color:000000;border-left-style:solid;border-left-width:1;border-right-color:000000;border-right-style:solid;border-right-width:1;font-weight:bold;vertical-align:center;text-align:center;word-wrap:break-word;height:19px;}
+.X8{color:rgb(0,0,0);font-family:微软雅黑;font-size:9.0pt;background-color:rgb(255,255,255);border-top-color:000000;border-top-style:solid;border-top-width:1;border-bottom-color:000000;border-bottom-style:solid;border-bottom-width:1;border-left-color:000000;border-left-style:solid;border-left-width:1;border-right-color:000000;border-right-style:solid;border-right-width:1;vertical-align:center;text-align:center;word-wrap:break-word;height:22px;}
+.X9{color:rgb(0,0,0);font-family:微软雅黑;font-size:9.0pt;background-color:rgb(217,217,217);border-top-color:000000;border-top-style:solid;border-top-width:1;border-bottom-color:000000;border-bottom-style:solid;border-bottom-width:1;border-left-color:000000;border-left-style:solid;border-left-width:1;border-right-color:000000;border-right-style:solid;border-right-width:1;vertical-align:center;text-align:left;word-wrap:break-word;height:22px;}
+.X10{color:rgb(0,0,0);font-family:宋体;font-size:11.0pt;background-color:rgb(255,255,255);border-top-color:000000;border-top-style:solid;border-top-width:1;border-bottom-color:000000;border-bottom-style:solid;border-bottom-width:1;border-left-color:000000;border-left-style:solid;border-left-width:1;border-right-color:000000;border-right-style:solid;border-right-width:1;vertical-align:center;text-align:general;word-wrap:break-word;height:22px;}
+.X11{color:rgb(0,0,0);font-family:Arial;font-size:11.0pt;background-color:rgb(255,255,255);border-top-color:000000;border-top-style:solid;border-top-width:1;border-bottom-color:000000;border-bottom-style:solid;border-bottom-width:1;border-left-color:000000;border-left-style:solid;border-left-width:1;border-right-color:000000;border-right-style:solid;border-right-width:1;vertical-align:center;text-align:center;word-wrap:break-word;height:22px;}
+.X12{color:rgb(0,0,0);font-family:微软雅黑;font-size:9.0pt;background-color:rgb(255,255,255);border-top-color:000000;border-top-style:solid;border-top-width:1;border-bottom-color:000000;border-bottom-style:solid;border-bottom-width:1;border-left-color:000000;border-left-style:solid;border-left-width:1;border-right-color:000000;border-right-style:solid;border-right-width:1;vertical-align:center;text-align:justify;word-wrap:break-word;height:22px;}
+.X13{color:rgb(0,0,0);font-family:微软雅黑;font-size:11.0pt;background-color:rgb(255,255,255);border-top-color:000000;border-top-style:solid;border-top-width:1;border-bottom-color:000000;border-bottom-style:solid;border-bottom-width:1;border-left-color:000000;border-left-style:solid;border-left-width:1;border-right-color:000000;border-right-style:solid;border-right-width:1;vertical-align:center;text-align:general;word-wrap:break-word;height:22px;}
+.X14{color:rgb(0,0,0);font-family:微软雅黑;font-size:9.0pt;background-color:rgb(255,255,255);border-top-color:000000;border-top-style:solid;border-top-width:1;border-bottom-color:000000;border-bottom-style:solid;border-bottom-width:1;border-left-color:000000;border-left-style:solid;border-left-width:1;border-right-color:000000;border-right-style:solid;border-right-width:1;vertical-align:center;text-align:general;word-wrap:break-word;height:22px;}
+.X15{color:rgb(0,0,0);font-family:微软雅黑;font-size:9.0pt;background-color:rgb(255,255,255);border-top-color:000000;border-top-style:solid;border-top-width:1;border-bottom-color:000000;border-bottom-style:solid;border-bottom-width:1;border-left-color:000000;border-left-style:solid;border-left-width:1;border-right-color:000000;border-right-style:solid;border-right-width:1;vertical-align:center;text-align:center;word-wrap:break-word;height:38px;}
+.X16{color:rgb(0,0,0);font-family:微软雅黑;font-size:9.0pt;background-color:rgb(255,255,255);border-top-color:000000;border-top-style:solid;border-top-width:1;border-bottom-color:000000;border-bottom-style:solid;border-bottom-width:1;border-left-color:000000;border-left-style:solid;border-left-width:1;border-right-color:000000;border-right-style:solid;border-right-width:1;vertical-align:center;text-align:left;word-wrap:break-word;height:38px;}
+.X17{color:rgb(0,0,0);font-family:微软雅黑;font-size:9.0pt;background-color:rgb(255,255,255);border-top-color:000000;border-top-style:solid;border-top-width:1;border-bottom-color:000000;border-bottom-style:solid;border-bottom-width:1;border-left-color:000000;border-left-style:solid;border-left-width:1;border-right-color:000000;border-right-style:solid;border-right-width:1;vertical-align:center;text-align:center;word-wrap:break-word;height:57px;}
+.X18{color:rgb(0,0,0);font-family:微软雅黑;font-size:9.0pt;background-color:rgb(255,255,255);border-top-color:000000;border-top-style:solid;border-top-width:1;border-bottom-color:000000;border-bottom-style:solid;border-bottom-width:1;border-left-color:000000;border-left-style:solid;border-left-width:1;border-right-color:000000;border-right-style:solid;border-right-width:1;vertical-align:center;text-align:left;word-wrap:break-word;height:57px;}
+.X19{color:rgb(0,0,0);font-family:微软雅黑;font-size:9.0pt;background-color:rgb(255,255,255);border-top-color:000000;border-top-style:solid;border-top-width:1;border-bottom-color:000000;border-bottom-style:solid;border-bottom-width:1;border-left-color:000000;border-left-style:solid;border-left-width:1;border-right-color:000000;border-right-style:solid;border-right-width:1;vertical-align:center;text-align:left;word-wrap:break-word;height:19px;}
+.X20{color:rgb(0,0,0);font-family:微软雅黑;font-size:10.0pt;background-color:rgb(255,255,255);border-bottom-color:000000;border-bottom-style:solid;border-bottom-width:1;border-left-color:000000;border-left-style:solid;border-left-width:1;border-right-color:000000;border-right-style:solid;border-right-width:1;font-weight:bold;vertical-align:center;text-align:center;word-wrap:break-word;height:22px;}
+.X21{color:rgb(0,0,0);font-family:微软雅黑;font-size:9.0pt;background-color:rgb(255,255,255);border-top-color:000000;border-top-style:solid;border-top-width:1;border-bottom-color:000000;border-bottom-style:solid;border-bottom-width:1;border-left-color:000000;border-left-style:solid;border-left-width:1;border-right-color:000000;border-right-style:solid;border-right-width:1;vertical-align:center;text-align:left;word-wrap:break-word;height:22px;}
+.X22{color:rgb(0,0,0);font-family:宋体;font-size:11.0pt;background-color:rgb(255,255,255);border-top-color:000000;border-top-style:solid;border-top-width:1;border-bottom-color:000000;border-bottom-style:solid;border-bottom-width:1;border-left-color:000000;border-left-style:solid;border-left-width:1;border-right-color:000000;border-right-style:solid;border-right-width:1;vertical-align:center;text-align:general;word-wrap:break-word;height:18px;}
+.X23{color:rgb(0,0,255);font-family:宋体;font-size:11.0pt;background-color:rgb(255,255,255);border-top-color:000000;border-top-style:solid;border-top-width:1;border-bottom-color:000000;border-bottom-style:solid;border-bottom-width:1;border-left-color:000000;border-left-style:solid;border-left-width:1;border-right-color:000000;border-right-style:solid;border-right-width:1;text-decoration:underline;vertical-align:top;text-align:left;word-wrap:break-word;height:18px;}
+.X24{color:rgb(0,0,0);font-family:宋体;font-size:11.0pt;background-color:rgb(255,255,255);border-top-color:000000;border-top-style:solid;border-top-width:1;vertical-align:top;text-align:left;word-wrap:break-word;height:18px;}
+.X25{color:rgb(0,0,0);font-family:宋体;font-size:11.0pt;background-color:rgb(255,255,255);vertical-align:center;text-align:general;word-wrap:break-word;height:18px;}</style>
+  </head>
+  <body>
+    <table cellspacing="0">
+      <Col width="72px" />
+      <Col width="72px" />
+      <Col width="72px" />
+      <Col width="72px" />
+      <Col width="72px" />
+      <Col width="72px" />
+      <Col width="72px" />
+      <Col width="72px" />
+      <Col width="72px" />
+      <Col width="72px" />
+      <Col width="72px" />
+      <Col width="72px" />
+      <Col width="72px" />
+      <Col width="72px" />
+      <Col width="72px" />
+      <Col width="72px" />
+      <Col width="72px" />
+      <Col width="72px" />
+      <tr>
+        <td class="X0">
+          <div style="width:72px"><font style="color:#FFFFFF;font-family:微软雅黑;font-size:9.0pt;">系统名称</font></div>
+        </td>
+        <td COLSPAN="17" class="X1">获取审批报告（oa）接口</td>
+      </tr>
+      <tr>
+        <td class="X2">
+          <div style="width:72px"><b><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">接口方式</font></b></div>
+        </td>
+        <td class="X3">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">http</font></div>
+        </td>
+        <td COLSPAN="2" class="X2">传递方向</td>
+        <td COLSPAN="4" class="X3">OA→费控</td>
+        <td COLSPAN="2" class="X2">调度周期</td>
+        <td COLSPAN="8" class="X3">实时</td>
+      </tr>
+      <tr>
+        <td COLSPAN="9" class="X4">费控</td>
+        <td COLSPAN="9" class="X4">OA系统</td>
+      </tr>
+      <tr>
+        <td ROWSPAN="10" class="X5">传入参数</td>
+        <td class="X3">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">No</font></div>
+        </td>
+        <td class="X3">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">字段名称</font></div>
+        </td>
+        <td class="X6">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">字段说明</font></div>
+        </td>
+        <td class="X3">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">数据类型</font></div>
+        </td>
+        <td class="X3">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">长度</font></div>
+        </td>
+        <td class="X3">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">记录类别</font></div>
+        </td>
+        <td class="X3">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">必须</font></div>
+        </td>
+        <td class="X3">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">备注</font></div>
+        </td>
+        <td ROWSPAN="10" class="X7"><div style="width:64px !Important;width:64px;" /></td>
+        <td class="X3">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">字段名称</font></div>
+        </td>
+        <td class="X3">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">字段说明</font></div>
+        </td>
+        <td class="X3">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">数据类型</font></div>
+        </td>
+        <td class="X3">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">长度</font></div>
+        </td>
+        <td class="X3">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">数据条件</font></div>
+        </td>
+        <td class="X3">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">参数类型</font></div>
+        </td>
+        <td class="X3">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">必须</font></div>
+        </td>
+        <td class="X3">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">备注</font></div>
+        </td>
+      </tr>
+      <tr>
+        <td class="X8">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">#</font></div>
+        </td>
+        <td COLSPAN="7" class="X9">基本信息</td>
+        <td class="X10">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X10">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X11">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X12">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X13">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X14">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X8">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X8">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+      </tr>
+      <tr>
+        <td class="X15">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">1</font></div>
+        </td>
+        <td class="X16">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">COST_CEN<BR/></font><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">TER_CODE</font></div>
+        </td>
+        <td class="X16">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">归属部门编<BR/></font><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">码</font></div>
+        </td>
+        <td class="X15">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">字符</font></div>
+        </td>
+        <td class="X15">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">20</font></div>
+        </td>
+        <td class="X15">
+          <div style="width:72px;">Header(L1)</div>
+        </td>
+        <td class="X15">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">Y</font></div>
+        </td>
+        <td class="X16">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X15">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X15">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X15">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X15">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X15">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X15">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X15">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X15">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+      </tr>
+      <tr>
+        <td class="X15">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">2</font></div>
+        </td>
+        <td class="X16">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">FEE_TYPE_C<BR/></font><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">ODE</font></div>
+        </td>
+        <td class="X16">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">费用类型编<BR/></font><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">码</font></div>
+        </td>
+        <td class="X15">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">字符</font></div>
+        </td>
+        <td class="X15">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">20</font></div>
+        </td>
+        <td class="X15">
+          <div style="width:72px;">Header(L1)</div>
+        </td>
+        <td class="X15">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">Y</font></div>
+        </td>
+        <td class="X16">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X15">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X15">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X15">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X15">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X15">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X15">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X15">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X15">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+      </tr>
+      <tr>
+        <td class="X15">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">3</font></div>
+        </td>
+        <td class="X16">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">PROJECT_C<BR/></font><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">ODE</font></div>
+        </td>
+        <td class="X16">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">项目编码</font></div>
+        </td>
+        <td class="X15">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">字符</font></div>
+        </td>
+        <td class="X15">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">20</font></div>
+        </td>
+        <td class="X15">
+          <div style="width:72px;">Header(L1)</div>
+        </td>
+        <td class="X15">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">N</font></div>
+        </td>
+        <td class="X16">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X15">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X15">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X15">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X15">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X15">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X15">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X15">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X15">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+      </tr>
+      <tr>
+        <td class="X17">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">4</font></div>
+        </td>
+        <td class="X18">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">PROJECT_P<BR/></font><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">HASE</font></div>
+        </td>
+        <td class="X18">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">项目阶段</font></div>
+        </td>
+        <td class="X17">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">字符</font></div>
+        </td>
+        <td class="X17">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">20</font></div>
+        </td>
+        <td class="X17">
+          <div style="width:72px;">Header(L1)</div>
+        </td>
+        <td class="X17">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">N</font></div>
+        </td>
+        <td class="X18">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">项目编码不<BR/></font><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">为空时，必<BR/></font><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">填</font></div>
+        </td>
+        <td class="X17">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X17">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X17">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X17">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X17">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X17">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X17">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X17">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+      </tr>
+      <tr>
+        <td class="X15">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">5</font></div>
+        </td>
+        <td class="X16">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">BUDGET_N<BR/></font><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">ODE_ID</font></div>
+        </td>
+        <td class="X16">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">预算结点ID</font></div>
+        </td>
+        <td class="X15">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">字符</font></div>
+        </td>
+        <td class="X15">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">20</font></div>
+        </td>
+        <td class="X15">
+          <div style="width:72px;">Header(L1)</div>
+        </td>
+        <td class="X15">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">N</font></div>
+        </td>
+        <td class="X16">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X15">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X15">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X15">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X15">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X15">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X15">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X15">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X15">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+      </tr>
+      <tr>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X19">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X19">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X19">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+      </tr>
+      <tr>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X19">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X19">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X19">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+      </tr>
+      <tr>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X19">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X19">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X19">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+      </tr>
+      <tr>
+        <td class="X20">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X8">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X21">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X14">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X8">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X8">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X8">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X14">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X21">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X4">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X8">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X8">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X8">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X8">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X14">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X14">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X21">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X14">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+      </tr>
+      <tr>
+        <td class="X22">
+          <div style="width:72px;">地址：</div>
+        </td>
+        <td COLSPAN="9" class="X23">
+          <a href="http://10.108.248.13:9005/mrf/com.sie.mrf.interface.io.oa.getBudgetReport.biz.ext">http://10.108.248.13:9005/mrf/com.sie.mrf.interface.io.oa.getBudgetReport.biz.ext</a>
+        </td>
+        <td class="X22">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X22">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X22">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X22">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X22">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X22">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X22">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X22">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+      </tr>
+      <tr>
+        <td COLSPAN="9" ROWSPAN="28" class="X24">请求：<BR/>{<BR/>&nbsp;&nbsp;&nbsp;&nbsp;"data":&nbsp;{<BR/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"COST_CENTER_CODE":&nbsp;"D102109",<BR/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"FEE_TYPE_CODE":&nbsp;"TK00389",<BR/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"PROJECT_CODE":&nbsp;"",<BR/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"PROJECT_PHASE":&nbsp;"",<BR/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"BUDGET_NODE_ID":""<BR/>&nbsp;&nbsp;&nbsp;&nbsp;}<BR/>}</td>
+        <td class="X25">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X25">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X25">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X25">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X25">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X25">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X25">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X25">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X25">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

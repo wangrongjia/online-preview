@@ -1,0 +1,1405 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <style type="text/css">table{border-collapse:collapse;table-layout:fixed;border-spacing:0;empty-cells:show}
+.X0{color:rgb(255,255,255);font-family:微软雅黑;font-size:9.0pt;background-color:rgb(51,51,153);border-top-color:000000;border-top-style:solid;border-top-width:1;border-bottom-color:000000;border-bottom-style:solid;border-bottom-width:1;border-left-color:000000;border-left-style:solid;border-left-width:1;border-right-color:000000;border-right-style:solid;border-right-width:1;vertical-align:center;text-align:center;word-wrap:break-word;height:19px;}
+.X1{color:rgb(255,255,255);font-family:微软雅黑;font-size:9.0pt;background-color:rgb(51,51,153);border-top-color:000000;border-top-style:solid;border-top-width:1;border-bottom-color:000000;border-bottom-style:solid;border-bottom-width:1;border-left-color:000000;border-left-style:solid;border-left-width:1;border-right-color:000000;border-right-style:solid;border-right-width:1;font-weight:bold;vertical-align:center;text-align:center;word-wrap:break-word;height:19px;}
+.X2{color:rgb(0,0,0);font-family:微软雅黑;font-size:9.0pt;background-color:rgb(255,255,255);border-top-color:000000;border-top-style:solid;border-top-width:1;border-bottom-color:000000;border-bottom-style:solid;border-bottom-width:1;border-left-color:000000;border-left-style:solid;border-left-width:1;border-right-color:000000;border-right-style:solid;border-right-width:1;font-weight:bold;vertical-align:center;text-align:center;word-wrap:break-word;height:19px;}
+.X3{color:rgb(0,0,0);font-family:微软雅黑;font-size:9.0pt;background-color:rgb(255,255,255);border-top-color:000000;border-top-style:solid;border-top-width:1;border-bottom-color:000000;border-bottom-style:solid;border-bottom-width:1;border-left-color:000000;border-left-style:solid;border-left-width:1;border-right-color:000000;border-right-style:solid;border-right-width:1;vertical-align:center;text-align:center;word-wrap:break-word;height:19px;}
+.X4{color:rgb(0,0,0);font-family:微软雅黑;font-size:10.0pt;background-color:rgb(255,255,255);border-top-color:000000;border-top-style:solid;border-top-width:1;border-bottom-color:000000;border-bottom-style:solid;border-bottom-width:1;border-left-color:000000;border-left-style:solid;border-left-width:1;border-right-color:000000;border-right-style:solid;border-right-width:1;font-weight:bold;vertical-align:center;text-align:center;word-wrap:break-word;height:22px;}
+.X5{color:rgb(0,0,0);font-family:微软雅黑;font-size:10.0pt;background-color:rgb(255,255,255);border-top-color:000000;border-top-style:solid;border-top-width:1;border-bottom-color:000000;border-bottom-style:solid;border-bottom-width:1;border-left-color:000000;border-left-style:solid;border-left-width:1;border-right-color:000000;border-right-style:solid;border-right-width:1;font-weight:bold;vertical-align:center;text-align:center;word-wrap:break-word;height:19px;}
+.X6{color:rgb(0,0,0);font-family:微软雅黑;font-size:9.0pt;background-color:rgb(255,255,255);border-top-color:000000;border-top-style:solid;border-top-width:1;border-bottom-color:000000;border-bottom-style:solid;border-bottom-width:1;border-left-color:000000;border-left-style:solid;border-left-width:1;border-right-color:000000;border-right-style:solid;border-right-width:1;vertical-align:center;text-align:general;word-wrap:break-word;height:19px;}
+.X7{color:rgb(0,0,0);font-family:微软雅黑;font-size:9.0pt;background-color:rgb(255,255,255);border-top-color:000000;border-top-style:solid;border-top-width:1;border-bottom-color:000000;border-bottom-style:solid;border-bottom-width:1;border-left-color:000000;border-left-style:solid;border-left-width:1;border-right-color:000000;border-right-style:solid;border-right-width:1;vertical-align:center;text-align:center;word-wrap:break-word;height:22px;}
+.X8{color:rgb(0,0,0);font-family:微软雅黑;font-size:9.0pt;background-color:rgb(217,217,217);border-top-color:000000;border-top-style:solid;border-top-width:1;border-bottom-color:000000;border-bottom-style:solid;border-bottom-width:1;border-left-color:000000;border-left-style:solid;border-left-width:1;border-right-color:000000;border-right-style:solid;border-right-width:1;vertical-align:center;text-align:left;word-wrap:break-word;height:22px;}
+.X9{color:rgb(0,0,0);font-family:宋体;font-size:11.0pt;background-color:rgb(255,255,255);border-top-color:000000;border-top-style:solid;border-top-width:1;border-bottom-color:000000;border-bottom-style:solid;border-bottom-width:1;border-left-color:000000;border-left-style:solid;border-left-width:1;border-right-color:000000;border-right-style:solid;border-right-width:1;vertical-align:center;text-align:general;word-wrap:break-word;height:22px;}
+.X10{color:rgb(0,0,0);font-family:Arial;font-size:11.0pt;background-color:rgb(255,255,255);border-top-color:000000;border-top-style:solid;border-top-width:1;border-bottom-color:000000;border-bottom-style:solid;border-bottom-width:1;border-left-color:000000;border-left-style:solid;border-left-width:1;border-right-color:000000;border-right-style:solid;border-right-width:1;vertical-align:center;text-align:center;word-wrap:break-word;height:22px;}
+.X11{color:rgb(0,0,0);font-family:微软雅黑;font-size:9.0pt;background-color:rgb(255,255,255);border-top-color:000000;border-top-style:solid;border-top-width:1;border-bottom-color:000000;border-bottom-style:solid;border-bottom-width:1;border-left-color:000000;border-left-style:solid;border-left-width:1;border-right-color:000000;border-right-style:solid;border-right-width:1;vertical-align:center;text-align:justify;word-wrap:break-word;height:22px;}
+.X12{color:rgb(0,0,0);font-family:微软雅黑;font-size:11.0pt;background-color:rgb(255,255,255);border-top-color:000000;border-top-style:solid;border-top-width:1;border-bottom-color:000000;border-bottom-style:solid;border-bottom-width:1;border-left-color:000000;border-left-style:solid;border-left-width:1;border-right-color:000000;border-right-style:solid;border-right-width:1;vertical-align:center;text-align:general;word-wrap:break-word;height:22px;}
+.X13{color:rgb(0,0,0);font-family:微软雅黑;font-size:9.0pt;background-color:rgb(255,255,255);border-top-color:000000;border-top-style:solid;border-top-width:1;border-bottom-color:000000;border-bottom-style:solid;border-bottom-width:1;border-left-color:000000;border-left-style:solid;border-left-width:1;border-right-color:000000;border-right-style:solid;border-right-width:1;vertical-align:center;text-align:general;word-wrap:break-word;height:22px;}
+.X14{color:rgb(0,0,0);font-family:微软雅黑;font-size:9.0pt;background-color:rgb(255,255,255);border-top-color:000000;border-top-style:solid;border-top-width:1;border-bottom-color:000000;border-bottom-style:solid;border-bottom-width:1;border-left-color:000000;border-left-style:solid;border-left-width:1;border-right-color:000000;border-right-style:solid;border-right-width:1;vertical-align:center;text-align:left;word-wrap:break-word;height:19px;}
+.X15{color:rgb(0,0,0);font-family:微软雅黑;font-size:9.0pt;background-color:rgb(255,255,255);border-top-color:000000;border-top-style:solid;border-top-width:1;border-bottom-color:000000;border-bottom-style:solid;border-bottom-width:1;border-left-color:000000;border-left-style:solid;border-left-width:1;border-right-color:000000;border-right-style:solid;border-right-width:1;vertical-align:center;text-align:center;word-wrap:break-word;height:57px;}
+.X16{color:rgb(0,0,0);font-family:微软雅黑;font-size:9.0pt;background-color:rgb(255,255,255);border-top-color:000000;border-top-style:solid;border-top-width:1;border-bottom-color:000000;border-bottom-style:solid;border-bottom-width:1;border-left-color:000000;border-left-style:solid;border-left-width:1;border-right-color:000000;border-right-style:solid;border-right-width:1;vertical-align:center;text-align:left;word-wrap:break-word;height:57px;}
+.X17{color:rgb(0,0,0);font-family:微软雅黑;font-size:9.0pt;background-color:rgb(255,255,255);border-top-color:000000;border-top-style:solid;border-top-width:1;border-bottom-color:000000;border-bottom-style:solid;border-bottom-width:1;border-left-color:000000;border-left-style:solid;border-left-width:1;border-right-color:000000;border-right-style:solid;border-right-width:1;vertical-align:center;text-align:left;word-wrap:break-word;height:22px;}
+.X18{color:rgb(0,0,0);font-family:微软雅黑;font-size:9.0pt;background-color:rgb(255,255,255);border-top-color:000000;border-top-style:solid;border-top-width:1;border-bottom-color:000000;border-bottom-style:solid;border-bottom-width:1;border-left-color:000000;border-left-style:solid;border-left-width:1;border-right-color:000000;border-right-style:solid;border-right-width:1;vertical-align:center;text-align:center;word-wrap:break-word;height:38px;}
+.X19{color:rgb(0,0,0);font-family:微软雅黑;font-size:9.0pt;background-color:rgb(255,255,255);border-top-color:000000;border-top-style:solid;border-top-width:1;border-bottom-color:000000;border-bottom-style:solid;border-bottom-width:1;border-left-color:000000;border-left-style:solid;border-left-width:1;border-right-color:000000;border-right-style:solid;border-right-width:1;vertical-align:center;text-align:left;word-wrap:break-word;height:38px;}
+.X20{color:rgb(0,0,0);font-family:微软雅黑;font-size:9.0pt;background-color:rgb(255,255,255);border-top-color:000000;border-top-style:solid;border-top-width:1;border-bottom-color:000000;border-bottom-style:solid;border-bottom-width:1;border-left-color:000000;border-left-style:solid;border-left-width:1;border-right-color:000000;border-right-style:solid;border-right-width:1;vertical-align:center;text-align:general;word-wrap:break-word;height:38px;}
+.X21{color:rgb(0,0,0);font-family:微软雅黑;font-size:10.0pt;background-color:rgb(255,255,255);border-top-color:000000;border-top-style:solid;border-top-width:1;border-bottom-color:000000;border-bottom-style:solid;border-bottom-width:1;border-left-color:000000;border-left-style:solid;border-left-width:1;border-right-color:000000;border-right-style:solid;border-right-width:1;font-weight:bold;vertical-align:center;text-align:center;word-wrap:break-word;height:38px;}
+.X22{color:rgb(0,0,0);font-family:微软雅黑;font-size:9.0pt;background-color:rgb(217,217,217);border-top-color:000000;border-top-style:solid;border-top-width:1;border-bottom-color:000000;border-bottom-style:solid;border-bottom-width:1;border-left-color:000000;border-left-style:solid;border-left-width:1;vertical-align:center;text-align:left;word-wrap:break-word;height:22px;}
+.X23{color:rgb(0,0,0);font-family:微软雅黑;font-size:9.0pt;background-color:rgb(217,217,217);border-top-color:000000;border-top-style:solid;border-top-width:1;border-bottom-color:000000;border-bottom-style:solid;border-bottom-width:1;vertical-align:center;text-align:left;word-wrap:break-word;height:22px;}
+.X24{color:rgb(0,0,0);font-family:微软雅黑;font-size:9.0pt;background-color:rgb(217,217,217);border-top-color:000000;border-top-style:solid;border-top-width:1;border-bottom-color:000000;border-bottom-style:solid;border-bottom-width:1;border-right-color:000000;border-right-style:solid;border-right-width:1;vertical-align:center;text-align:left;word-wrap:break-word;height:22px;}
+.X25{color:rgb(0,0,0);font-family:宋体;font-size:11.0pt;background-color:rgb(255,255,255);border-top-color:000000;border-top-style:solid;border-top-width:1;border-bottom-color:000000;border-bottom-style:solid;border-bottom-width:1;border-left-color:000000;border-left-style:solid;border-left-width:1;border-right-color:000000;border-right-style:solid;border-right-width:1;vertical-align:center;text-align:general;word-wrap:break-word;height:18px;}
+.X26{color:rgb(0,0,255);font-family:宋体;font-size:11.0pt;background-color:rgb(255,255,255);border-top-color:000000;border-top-style:solid;border-top-width:1;border-bottom-color:000000;border-bottom-style:solid;border-bottom-width:1;border-left-color:000000;border-left-style:solid;border-left-width:1;border-right-color:000000;border-right-style:solid;border-right-width:1;text-decoration:underline;vertical-align:top;text-align:left;word-wrap:break-word;height:18px;}
+.X27{color:rgb(0,0,0);font-family:宋体;font-size:11.0pt;background-color:rgb(255,255,255);border-top-color:000000;border-top-style:solid;border-top-width:1;vertical-align:top;text-align:left;word-wrap:break-word;height:18px;}
+.X28{color:rgb(0,0,0);font-family:宋体;font-size:11.0pt;background-color:rgb(255,255,255);vertical-align:center;text-align:general;word-wrap:break-word;height:18px;}</style>
+  </head>
+  <body>
+    <table cellspacing="0">
+      <Col width="72px" />
+      <Col width="72px" />
+      <Col width="115px" />
+      <Col width="106px" />
+      <Col width="72px" />
+      <Col width="72px" />
+      <Col width="72px" />
+      <Col width="72px" />
+      <Col width="72px" />
+      <Col width="72px" />
+      <Col width="72px" />
+      <Col width="72px" />
+      <Col width="72px" />
+      <Col width="72px" />
+      <Col width="72px" />
+      <Col width="72px" />
+      <Col width="72px" />
+      <Col width="72px" />
+      <tr>
+        <td class="X0">
+          <div style="width:72px"><font style="color:#FFFFFF;font-family:微软雅黑;font-size:9.0pt;">系统名称</font></div>
+        </td>
+        <td COLSPAN="17" class="X1">同步研发项目信息（PLM）接口</td>
+      </tr>
+      <tr>
+        <td class="X2">
+          <div style="width:72px"><b><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">接口方式</font></b></div>
+        </td>
+        <td class="X3">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">http</font></div>
+        </td>
+        <td COLSPAN="2" class="X2">传递方向</td>
+        <td COLSPAN="4" class="X3">PLM→费控</td>
+        <td COLSPAN="2" class="X2">调度周期</td>
+        <td COLSPAN="8" class="X3">实时</td>
+      </tr>
+      <tr>
+        <td COLSPAN="9" class="X4">费控</td>
+        <td COLSPAN="9" class="X4">PLM系统</td>
+      </tr>
+      <tr>
+        <td ROWSPAN="25" class="X5">传入参数</td>
+        <td class="X3">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">No</font></div>
+        </td>
+        <td class="X3">
+          <div style="width:115px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">字段名称</font></div>
+        </td>
+        <td class="X6">
+          <div style="width:106px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">字段说明</font></div>
+        </td>
+        <td class="X3">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">数据类型</font></div>
+        </td>
+        <td class="X3">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">长度</font></div>
+        </td>
+        <td class="X3">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">记录类别</font></div>
+        </td>
+        <td class="X3">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">必须</font></div>
+        </td>
+        <td class="X3">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">备注</font></div>
+        </td>
+        <td ROWSPAN="14" class="X5">传入参数</td>
+        <td class="X3">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">字段名称</font></div>
+        </td>
+        <td class="X3">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">字段说明</font></div>
+        </td>
+        <td class="X3">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">数据类型</font></div>
+        </td>
+        <td class="X3">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">长度</font></div>
+        </td>
+        <td class="X3">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">数据条件</font></div>
+        </td>
+        <td class="X3">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">参数类型</font></div>
+        </td>
+        <td class="X3">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">必须</font></div>
+        </td>
+        <td class="X3">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">备注</font></div>
+        </td>
+      </tr>
+      <tr>
+        <td class="X7">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">#</font></div>
+        </td>
+        <td COLSPAN="7" class="X8">基本信息</td>
+        <td class="X9">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X9">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X10">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X11">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X12">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X13">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X7">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X7">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+      </tr>
+      <tr>
+        <td class="X3">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">1</font></div>
+        </td>
+        <td class="X14">
+          <div style="width:115px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">APPLY_NAME</font></div>
+        </td>
+        <td class="X14">
+          <div style="width:106px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">申请人名称</font></div>
+        </td>
+        <td class="X3">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">字符</font></div>
+        </td>
+        <td class="X3">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">20</font></div>
+        </td>
+        <td class="X3">
+          <div style="width:72px;">Header(L1)</div>
+        </td>
+        <td class="X3">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">Y</font></div>
+        </td>
+        <td class="X14">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+      </tr>
+      <tr>
+        <td class="X3">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">2</font></div>
+        </td>
+        <td class="X14">
+          <div style="width:115px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">CUSTOMER_NAME</font></div>
+        </td>
+        <td class="X14">
+          <div style="width:106px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">客户名称</font></div>
+        </td>
+        <td class="X3">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">字符</font></div>
+        </td>
+        <td class="X3">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">20</font></div>
+        </td>
+        <td class="X3">
+          <div style="width:72px;">Header(L1)</div>
+        </td>
+        <td class="X3">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">Y</font></div>
+        </td>
+        <td class="X14">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+      </tr>
+      <tr>
+        <td class="X3">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">3</font></div>
+        </td>
+        <td class="X14">
+          <div style="width:115px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">APPLY_ORG_CODE</font></div>
+        </td>
+        <td class="X14">
+          <div style="width:106px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">申请人部门编码</font></div>
+        </td>
+        <td class="X3">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">字符</font></div>
+        </td>
+        <td class="X3">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">20</font></div>
+        </td>
+        <td class="X3">
+          <div style="width:72px;">Header(L1)</div>
+        </td>
+        <td class="X3">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">Y</font></div>
+        </td>
+        <td class="X14">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+      </tr>
+      <tr>
+        <td class="X3">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">4</font></div>
+        </td>
+        <td class="X14">
+          <div style="width:115px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">PROJECT_TYPE</font></div>
+        </td>
+        <td class="X14">
+          <div style="width:106px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">项目类型</font></div>
+        </td>
+        <td class="X3">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">字符</font></div>
+        </td>
+        <td class="X3">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">20</font></div>
+        </td>
+        <td class="X3">
+          <div style="width:72px;">Header(L1)</div>
+        </td>
+        <td class="X3">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">Y</font></div>
+        </td>
+        <td class="X14">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+      </tr>
+      <tr>
+        <td class="X3">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">5</font></div>
+        </td>
+        <td class="X14">
+          <div style="width:115px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">PROJECT_E_DATE</font></div>
+        </td>
+        <td class="X14">
+          <div style="width:106px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">项目失效日期</font></div>
+        </td>
+        <td class="X3">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">字符</font></div>
+        </td>
+        <td class="X3">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">20</font></div>
+        </td>
+        <td class="X3">
+          <div style="width:72px;">Header(L1)</div>
+        </td>
+        <td class="X3">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">Y</font></div>
+        </td>
+        <td class="X14">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+      </tr>
+      <tr>
+        <td class="X3">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">6</font></div>
+        </td>
+        <td class="X14">
+          <div style="width:115px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">PROJECT_S_DATE</font></div>
+        </td>
+        <td class="X14">
+          <div style="width:106px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">项目生效日期</font></div>
+        </td>
+        <td class="X3">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">字符</font></div>
+        </td>
+        <td class="X3">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">20</font></div>
+        </td>
+        <td class="X3">
+          <div style="width:72px;">Header(L1)</div>
+        </td>
+        <td class="X3">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">Y</font></div>
+        </td>
+        <td class="X14">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+      </tr>
+      <tr>
+        <td class="X3">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">7</font></div>
+        </td>
+        <td class="X14">
+          <div style="width:115px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">EDIT_TYPE</font></div>
+        </td>
+        <td class="X14">
+          <div style="width:106px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">编辑类型</font></div>
+        </td>
+        <td class="X3">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">字符</font></div>
+        </td>
+        <td class="X3">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">20</font></div>
+        </td>
+        <td class="X3">
+          <div style="width:72px;">Header(L1)</div>
+        </td>
+        <td class="X3">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">Y</font></div>
+        </td>
+        <td class="X14">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+      </tr>
+      <tr>
+        <td class="X3">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">8</font></div>
+        </td>
+        <td class="X14">
+          <div style="width:115px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">PM_CODE</font></div>
+        </td>
+        <td class="X14">
+          <div style="width:106px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">项目经理编号</font></div>
+        </td>
+        <td class="X3">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">字符</font></div>
+        </td>
+        <td class="X3">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">20</font></div>
+        </td>
+        <td class="X3">
+          <div style="width:72px;">Header(L1)</div>
+        </td>
+        <td class="X3">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">Y</font></div>
+        </td>
+        <td class="X14">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+      </tr>
+      <tr>
+        <td class="X15">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">9</font></div>
+        </td>
+        <td class="X16">
+          <div style="width:115px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">APPLY_DATE</font></div>
+        </td>
+        <td class="X16">
+          <div style="width:106px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">申请时间</font></div>
+        </td>
+        <td class="X15">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">字符</font></div>
+        </td>
+        <td class="X15">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">20</font></div>
+        </td>
+        <td class="X15">
+          <div style="width:72px;">Header(L1)</div>
+        </td>
+        <td class="X15">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">Y</font></div>
+        </td>
+        <td class="X16">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">格式：<BR/></font><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">"YYYY-MM-<BR/></font><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">DD"</font></div>
+        </td>
+        <td class="X15">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X15">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X15">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X15">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X15">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X15">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X15">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X15">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+      </tr>
+      <tr>
+        <td class="X3">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">10</font></div>
+        </td>
+        <td class="X14">
+          <div style="width:115px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">APPLY_BY</font></div>
+        </td>
+        <td class="X14">
+          <div style="width:106px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">申请人</font></div>
+        </td>
+        <td class="X3">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">字符</font></div>
+        </td>
+        <td class="X3">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">20</font></div>
+        </td>
+        <td class="X3">
+          <div style="width:72px;">Header(L1)</div>
+        </td>
+        <td class="X3">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">Y</font></div>
+        </td>
+        <td class="X14">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+      </tr>
+      <tr>
+        <td class="X3">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">11</font></div>
+        </td>
+        <td class="X14">
+          <div style="width:115px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">SALE_YEAR</font></div>
+        </td>
+        <td class="X14">
+          <div style="width:106px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">销售年数</font></div>
+        </td>
+        <td class="X3">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">字符</font></div>
+        </td>
+        <td class="X3">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">20</font></div>
+        </td>
+        <td class="X3">
+          <div style="width:72px;">Header(L1)</div>
+        </td>
+        <td class="X3">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">Y</font></div>
+        </td>
+        <td class="X14">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+      </tr>
+      <tr>
+        <td class="X3">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">12</font></div>
+        </td>
+        <td class="X14">
+          <div style="width:115px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">PM_NAME</font></div>
+        </td>
+        <td class="X14">
+          <div style="width:106px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">项目经理名称</font></div>
+        </td>
+        <td class="X3">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">字符</font></div>
+        </td>
+        <td class="X3">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">20</font></div>
+        </td>
+        <td class="X3">
+          <div style="width:72px;">Header(L1)</div>
+        </td>
+        <td class="X3">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">Y</font></div>
+        </td>
+        <td class="X14">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X3">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+      </tr>
+      <tr>
+        <td class="X7">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">13</font></div>
+        </td>
+        <td class="X17">
+          <div style="width:115px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">PROJECT_LEVEL</font></div>
+        </td>
+        <td class="X13">
+          <div style="width:106px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">项目级别</font></div>
+        </td>
+        <td class="X7">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">字符</font></div>
+        </td>
+        <td class="X7">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">20</font></div>
+        </td>
+        <td class="X7">
+          <div style="width:72px;">Header(L1)</div>
+        </td>
+        <td class="X7">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">Y</font></div>
+        </td>
+        <td class="X17">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X4">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X7">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X7">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X7">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X7">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X13">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X13">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X17">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X13">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+      </tr>
+      <tr>
+        <td class="X7">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">14</font></div>
+        </td>
+        <td class="X17">
+          <div style="width:115px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">ORG_CODE</font></div>
+        </td>
+        <td class="X13">
+          <div style="width:106px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">公司代码</font></div>
+        </td>
+        <td class="X7">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">字符</font></div>
+        </td>
+        <td class="X7">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">20</font></div>
+        </td>
+        <td class="X7">
+          <div style="width:72px;">Header(L1)</div>
+        </td>
+        <td class="X7">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">Y</font></div>
+        </td>
+        <td class="X17">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X4">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X7">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X7">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X7">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X7">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X13">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X13">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X17">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X13">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+      </tr>
+      <tr>
+        <td class="X7">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">15</font></div>
+        </td>
+        <td class="X17">
+          <div style="width:115px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">PROJECT_CODE</font></div>
+        </td>
+        <td class="X13">
+          <div style="width:106px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">项目编号</font></div>
+        </td>
+        <td class="X7">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">字符</font></div>
+        </td>
+        <td class="X7">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">20</font></div>
+        </td>
+        <td class="X7">
+          <div style="width:72px;">Header(L1)</div>
+        </td>
+        <td class="X7">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">Y</font></div>
+        </td>
+        <td class="X17">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X4">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X7">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X7">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X7">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X7">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X13">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X13">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X17">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X13">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+      </tr>
+      <tr>
+        <td class="X7">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">16</font></div>
+        </td>
+        <td class="X17">
+          <div style="width:115px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">PROJECT_DESC</font></div>
+        </td>
+        <td class="X13">
+          <div style="width:106px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">项目描述</font></div>
+        </td>
+        <td class="X7">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">字符</font></div>
+        </td>
+        <td class="X7">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">20</font></div>
+        </td>
+        <td class="X7">
+          <div style="width:72px;">Header(L1)</div>
+        </td>
+        <td class="X7">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">Y</font></div>
+        </td>
+        <td class="X17">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X4">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X7">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X7">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X7">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X7">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X13">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X13">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X17">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X13">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+      </tr>
+      <tr>
+        <td class="X7">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">17</font></div>
+        </td>
+        <td class="X17">
+          <div style="width:115px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">PROJECT_NAME</font></div>
+        </td>
+        <td class="X13">
+          <div style="width:106px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">项目名称</font></div>
+        </td>
+        <td class="X7">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">字符</font></div>
+        </td>
+        <td class="X7">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">20</font></div>
+        </td>
+        <td class="X7">
+          <div style="width:72px;">Header(L1)</div>
+        </td>
+        <td class="X7">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">Y</font></div>
+        </td>
+        <td class="X17">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X4">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X7">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X7">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X7">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X7">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X13">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X13">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X17">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X13">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+      </tr>
+      <tr>
+        <td class="X18">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">18</font></div>
+        </td>
+        <td class="X19">
+          <div style="width:115px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">FORCECAST_SALE_<BR/></font><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">YEAR_AMOUNT</font></div>
+        </td>
+        <td class="X20">
+          <div style="width:106px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">预计年销量</font></div>
+        </td>
+        <td class="X18">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">字符</font></div>
+        </td>
+        <td class="X18">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">20</font></div>
+        </td>
+        <td class="X18">
+          <div style="width:72px;">Header(L1)</div>
+        </td>
+        <td class="X18">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">Y</font></div>
+        </td>
+        <td class="X19">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X21">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X18">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X18">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X18">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X18">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X20">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X20">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X19">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X20">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+      </tr>
+      <tr>
+        <td class="X7">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X22">
+          <div style="width:115px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">项目信息行</font></div>
+        </td>
+        <td class="X23">
+          <div style="width:96px !Important;width:96px;" />
+        </td>
+        <td class="X23">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X23">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X23">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X24">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X8">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X4">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X7">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X7">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X7">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X7">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X13">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X13">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X17">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X13">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+      </tr>
+      <tr>
+        <td class="X7">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">1</font></div>
+        </td>
+        <td class="X17">
+          <div style="width:115px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">PREDICT_REMARK</font></div>
+        </td>
+        <td class="X13">
+          <div style="width:106px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">预测说明</font></div>
+        </td>
+        <td class="X7">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">字符</font></div>
+        </td>
+        <td class="X7">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">20</font></div>
+        </td>
+        <td class="X7">
+          <div style="width:72px;">Item(L1)</div>
+        </td>
+        <td class="X7">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">Y</font></div>
+        </td>
+        <td class="X17">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X4">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X7">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X7">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X7">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X7">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X13">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X13">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X17">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X13">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+      </tr>
+      <tr>
+        <td class="X7">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">2</font></div>
+        </td>
+        <td class="X17">
+          <div style="width:115px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">ANNUAL_SALES</font></div>
+        </td>
+        <td class="X13">
+          <div style="width:106px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">预计年销量</font></div>
+        </td>
+        <td class="X7">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">字符</font></div>
+        </td>
+        <td class="X7">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">20</font></div>
+        </td>
+        <td class="X7">
+          <div style="width:72px;">Item(L1)</div>
+        </td>
+        <td class="X7">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">Y</font></div>
+        </td>
+        <td class="X17">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X4">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X7">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X7">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X7">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X7">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X13">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X13">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X17">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X13">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+      </tr>
+      <tr>
+        <td class="X7">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">3</font></div>
+        </td>
+        <td class="X17">
+          <div style="width:115px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">ANNUAL</font></div>
+        </td>
+        <td class="X13">
+          <div style="width:106px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">销售年份</font></div>
+        </td>
+        <td class="X7">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">字符</font></div>
+        </td>
+        <td class="X7">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">20</font></div>
+        </td>
+        <td class="X7">
+          <div style="width:72px;">Item(L1)</div>
+        </td>
+        <td class="X7">
+          <div style="width:72px"><font style="color:Black;font-family:微软雅黑;font-size:9.0pt;">Y</font></div>
+        </td>
+        <td class="X17">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X4">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X7">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X7">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X7">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X7">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X13">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X13">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X17">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X13">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+      </tr>
+      <tr>
+        <td class="X7">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X17">
+          <div style="width:104px !Important;width:104px;" />
+        </td>
+        <td class="X13">
+          <div style="width:96px !Important;width:96px;" />
+        </td>
+        <td class="X7">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X7">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X7">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X13">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X17">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X4">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X7">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X7">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X7">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X7">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X13">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X13">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X17">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X13">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+      </tr>
+      <tr>
+        <td class="X25">
+          <div style="width:72px;">地址：</div>
+        </td>
+        <td COLSPAN="9" class="X26">
+          <a href="http://10.108.248.13:9005/mrf/com.sie.mrf.interface.io.project.receiptProjectInfo.biz.ext">http://10.108.248.13:9005/mrf/com.sie.mrf.interface.io.project.receiptProjectInfo.biz.ext</a>
+        </td>
+        <td class="X25">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X25">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X25">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X25">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X25">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X25">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X25">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X25">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+      </tr>
+      <tr>
+        <td COLSPAN="9" ROWSPAN="28" class="X27">{<BR/>&nbsp;&nbsp;&nbsp;&nbsp;"plmProjectHDto":&nbsp;{<BR/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"APPLY_NAME":&nbsp;"高鑫",<BR/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"CUSTOMER_NAME":&nbsp;"Fakir&nbsp;Elektrikli&nbsp;Ev&nbsp;Aletleri",<BR/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"APPLY_ORG_CODE":&nbsp;"T3-B0019",<BR/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"PROJECT_TYPE":&nbsp;"02",<BR/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"PROJECT_E_DATE":&nbsp;"2022/12/14",<BR/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"EDIT_TYPE":&nbsp;"A",<BR/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"PM_CODE":&nbsp;"10825",<BR/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"APPLY_DATE":&nbsp;"2021/04/14",<BR/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"plmProjectForecastDtos":&nbsp;[{<BR/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"PREDICT_REMARK":&nbsp;"",<BR/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"ANNUAL_SALES":&nbsp;"10000",<BR/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"ANNUAL":&nbsp;"0"<BR/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}],<BR/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"APPLY_BY":&nbsp;"14142",<BR/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"SALE_YEAR":&nbsp;"100",<BR/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"PM_NAME":&nbsp;"赵叙强",<BR/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"PROJECT_S_DATE":&nbsp;"2021/04/14",<BR/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"PROJECT_LEVEL":&nbsp;"A+",<BR/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"ORG_CODE":&nbsp;"F800",<BR/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"PROJECT_CODE":&nbsp;"TEST-ZW2038-szj",<BR/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"PROJECT_DESC":&nbsp;"卧式旋风吸尘器",<BR/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"PROJECT_NAME":&nbsp;"TEST-ZW2038-szj",<BR/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"FORCECAST_SALE_YEAR_AMOUNT"&nbsp;:&nbsp;100<BR/>&nbsp;&nbsp;&nbsp;&nbsp;}<BR/>}</td>
+        <td class="X28">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X28">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X28">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X28">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X28">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X28">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X28">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X28">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+        <td class="X28">
+          <div style="width:64px !Important;width:64px;" />
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
