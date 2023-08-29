@@ -1,88 +1,112 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
-	<modelVersion>4.0.0</modelVersion>
-	<parent>
-		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.6.0</version>
-		<relativePath/> <!-- lookup parent from repository -->
-	</parent>
-	<groupId>com.codinger</groupId>
-	<artifactId>onlinePreview</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>onlinePreview</name>
-	<description>onlinePreview demo with e-ice-blue</description>
-	<properties>
-		<java.version>8</java.version>
-	</properties>
-	<dependencies>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>
-		</dependency>
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.6.0</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+    <groupId>com.codinger</groupId>
+    <artifactId>onlinePreview</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>onlinePreview</name>
+    <description>onlinePreview demo with e-ice-blue</description>
+    <properties>
+        <java.version>8</java.version>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
 
-		<dependency>
-			<groupId>org.projectlombok</groupId>
-			<artifactId>lombok</artifactId>
-			<optional>true</optional>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-test</artifactId>
-			<scope>test</scope>
-		</dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
 
-		<dependency>
-			<groupId>e-iceblue</groupId>
-			<artifactId>spire.xls.free</artifactId>
-			<version>5.1.0</version>
-		</dependency>
-		<dependency>
-			<groupId>e-iceblue</groupId>
-			<artifactId>spire.doc.free</artifactId>
-			<version>5.1.0</version>
-		</dependency>
-		<dependency>
-			<groupId>e-iceblue</groupId>
-			<artifactId>spire.doc</artifactId>
-			<version>11.4.2</version>
-		</dependency>
-<!--		<dependency>-->
-<!--			<groupId>e-iceblue</groupId>-->
-<!--			<artifactId>spire.office.free</artifactId>-->
-<!--			<version>5.3.1</version>-->
-<!--		</dependency>-->
-		<dependency>
-			<groupId>e-iceblue</groupId>
-			<artifactId>spire.presentation.free</artifactId>
-			<version>5.1.0</version>
-		</dependency>
-	</dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+            <version>2.6.0</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/cn.hutool/hutool-all -->
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+            <version>5.8.21</version>
+        </dependency>
 
-	<repositories>
-		<repository>
-			<id>com.e-iceblue</id>
-			<name>e-iceblue</name>
-			<url>https://repo.e-iceblue.cn/repository/maven-public/</url>
-		</repository>
-	</repositories>
 
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-				<configuration>
-					<excludes>
-						<exclude>
-							<groupId>org.projectlombok</groupId>
-							<artifactId>lombok</artifactId>
-						</exclude>
-					</excludes>
-				</configuration>
-			</plugin>
-		</plugins>
-	</build>
+        <!-- excel to html -->
+        <dependency>
+            <groupId>e-iceblue</groupId>
+            <artifactId>spire.xls.free</artifactId>
+            <version>5.1.0</version>
+        </dependency>
+
+        <!--word to html-->
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>4.1.2</version>
+        </dependency>
+            <!-- 针对2003版本的库 -->
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-scratchpad</artifactId>
+            <version>4.1.2</version>
+        </dependency>
+        <dependency>
+            <groupId>fr.opensagres.xdocreport</groupId>
+            <artifactId>fr.opensagres.poi.xwpf.converter.xhtml</artifactId>
+            <version>2.0.2</version>
+        </dependency>
+
+    </dependencies>
+
+
+    <repositories>
+<!--        <repository>-->
+<!--            <id>central-repos</id>-->
+<!--            <name>Central Repository</name>-->
+<!--            <url>http://repo.maven.apache.org/maven2</url>-->
+<!--        </repository>-->
+<!--        <repository>-->
+<!--            <id>alimaven</id>-->
+<!--            <name>aliyun maven</name>-->
+<!--            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>-->
+<!--        </repository>-->
+        <repository>
+            <id>com.e-iceblue</id>
+            <name>e-iceblue</name>
+            <url>https://repo.e-iceblue.cn/repository/maven-public/</url>
+        </repository>
+    </repositories>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <excludes>
+                        <exclude>
+                            <groupId>org.projectlombok</groupId>
+                            <artifactId>lombok</artifactId>
+                        </exclude>
+                    </excludes>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>
